@@ -27,10 +27,10 @@ author:
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  location         : "Sydney, Australia"
   employer         : "Macquarie University"
-  uri              : # URL
-  email            : "none@example.org" 
+  uri              : "https://researchers.mq.edu.au/en/persons/david-michael-kaplan/"
+  email            : "david.kaplan@mq.edu.au" 
 
   # Academic websites
   academia         : # URL
