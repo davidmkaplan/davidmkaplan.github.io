@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/dmk_profile.png"
   name             : # "David Kaplan"
   pronouns         : # example: "she/her"  
   bio              : "SAssociate Professor of Cognitive and Brain Sciences focused on the computational principles underlying sensorimotor control and learning."
