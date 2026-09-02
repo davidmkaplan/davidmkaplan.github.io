@@ -1,64 +1,53 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+[Download the complete CV (PDF)](/files/davidkaplanCV-Jul2026.pdf){: .btn .btn--primary }
+
+Academic appointments
+=====================
+
+**Associate Professor and Head of Neuroscience Education**<br>
+School of Psychological Sciences, Macquarie University<br>
+Associate Professor, 2020-present; Head of Neuroscience Education, 2025-present
+
+**Senior Lecturer and Lecturer**<br>
+Department of Cognitive Science, Macquarie University, 2014-2019
+
+**Lecturer**<br>
+Department of Philosophy, Monash University, 2013-2014
+
+**Postdoctoral Research Associate**<br>
+Department of Neuroscience, Washington University School of Medicine in St. Louis, 2009-2013
+
+**James S. McDonnell Postdoctoral Research Fellow**<br>
+Philosophy-Neuroscience-Psychology Program, Washington University in St. Louis, 2007-2009
 
 Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+=========
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **PhD**, Philosophy and Cognitive Neuroscience, Duke University, 2007
+- **BA**, Philosophy, University of California San Diego, 1997
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Areas of specialisation
+=======================
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Motor neuroscience
+- Systems neuroscience
+- Philosophy of neuroscience
+- Philosophy of cognitive science
+- General philosophy of science
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Selected current affiliations
+=============================
+
+- Macquarie University Minds and Intelligences Research Centre
+- Macquarie University Performance and Expertise Research Centre
+- Centre for Language Sciences
+
+The complete CV includes publications, presentations, grants, teaching, supervision, service, and outreach.
