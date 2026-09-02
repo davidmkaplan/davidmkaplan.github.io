@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>David M. Kaplan</title>
+  <style>
+    :root{--ink:#23303b;--muted:#627080;--line:#dfe5e8;--blue:#2475a8;--paper:#fff;--soft:#f5f7f8}
+    *{box-sizing:border-box} body{margin:0;color:var(--ink);background:var(--paper);font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    header{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:2}
+    nav{max-width:1120px;margin:auto;display:flex;align-items:center;gap:28px;padding:17px 28px}
+    nav strong{font-size:18px;margin-right:auto} nav a{color:var(--ink);text-decoration:none;font-size:15px} nav a:hover{color:var(--blue)}
+    .wrap{max-width:1120px;margin:55px auto;display:grid;grid-template-columns:250px 1fr;gap:70px;padding:0 28px}
+    aside{text-align:center}.avatar{width:170px;height:170px;border-radius:50%;object-fit:cover;border:5px solid var(--soft)}
+    aside h2{font-size:21px;margin:18px 0 3px}aside p{color:var(--muted);font-size:14px;line-height:1.5;margin:4px 0}
+    .links{margin-top:20px;display:grid;gap:8px}.links a{color:var(--blue);text-decoration:none;font-size:14px}
+    main{max-width:760px}h1{font:700 44px/1.15 Georgia,serif;margin:0 0 24px}h2{font:700 28px/1.3 Georgia,serif;margin:45px 0 16px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+    h3{font-size:19px;margin:25px 0 4px}.lead{font-size:20px;color:#3f4f5c}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}.card{background:var(--soft);padding:20px;border-radius:8px}.card h3{margin-top:0}
+    .buttons{display:flex;flex-wrap:wrap;gap:10px;margin-top:32px}.button{display:inline-block;padding:10px 15px;border-radius:4px;background:var(--blue);color:white;text-decoration:none}.button.secondary{background:white;color:var(--blue);border:1px solid var(--blue)}
+    .pub{margin:0 0 22px}.pub strong{display:block}.pub small{color:var(--muted)}section{scroll-margin-top:80px}
+    @media(max-width:760px){nav{gap:13px;padding:14px 18px}nav a{font-size:13px}.wrap{grid-template-columns:1fr;margin-top:32px;gap:35px;padding:0 20px}aside{text-align:left}.avatar{width:120px;height:120px}.cards{grid-template-columns:1fr}h1{font-size:36px}}
+  </style>
+</head>
+<body>
+  <header><nav><strong>David M. Kaplan, PhD</strong><a href="#about">About</a><a href="#publications">Publications</a><a href="#cv">CV</a><a href="https://scholar.google.com.au/citations?user=r1qDidUAAAAJ&hl=en">Google Scholar</a></nav></header>
+  <div class="wrap">
+    <aside>
+      <img class="avatar" src="/images/dmk_profile.png" alt="David M. Kaplan">
+      <h2>David M. Kaplan</h2>
+      <p>Associate Professor</p><p>Head of Neuroscience Education</p><p>Macquarie University</p><p>Sydney, Australia</p>
+      <div class="links"><a href="mailto:david.kaplan@mq.edu.au">Email</a><a href="https://orcid.org/0000-0001-7532-1114">ORCID</a><a href="https://github.com/davidmkaplan">GitHub</a></div>
+    </aside>
+    <main>
+      <section id="about">
+        <h1>David M. Kaplan</h1>
+        <p class="lead">I am an Associate Professor in the School of Psychological Sciences at Macquarie University, where I serve as Head of Neuroscience Education.</p>
+        <p>My research sits at the intersection of <strong>motor neuroscience</strong>, <strong>systems neuroscience</strong>, and the <strong>philosophy of neuroscience</strong>. I study the computational processes underlying movement planning and sensorimotor learning, including how sensory uncertainty shapes learning and how expert motor skills develop in minimally invasive and robotic surgery.</p>
+        <h2>Research themes</h2>
+        <div class="cards">
+          <div class="card"><h3>Sensorimotor learning</h3><p>How people plan, control, and adapt movement when sensory information is uncertain.</p></div>
+          <div class="card"><h3>Expert performance</h3><p>The sensorimotor challenges of minimally invasive and robotic surgery.</p></div>
+          <div class="card"><h3>Philosophy of neuroscience</h3><p>Explanation, modelling, measurement, neural computation, and model organisms.</p></div>
+        </div>
+        <h2>Background</h2>
+        <p>I completed a PhD in Philosophy and Cognitive Neuroscience at Duke University in 2007. I then held postdoctoral fellowships at Washington University in St. Louis before joining Macquarie University.</p>
+        <div class="buttons"><a class="button" href="#publications">View publications</a><a class="button secondary" href="/files/davidkaplanCV-Jul2026.pdf">Download CV</a></div>
+      </section>
+      <section id="publications">
+        <h2>Selected publications</h2>
+        <p class="pub"><strong>Rethinking psychological measurement: Validity potential versus realised validity.</strong><small>Higgins, Gillett, Kaplan, Sutton & Ross · Studies in History and Philosophy of Science · 2026</small></p>
+        <p class="pub"><strong>Repurposing model organisms in neuroscience: What is the purpose?</strong><small>Kaplan · Biology & Philosophy · 2025</small></p>
+        <p class="pub"><strong>Context sensitivity versus aiming in motor learning under uncertainty.</strong><small>Crossley, Hewitson & Kaplan · Journal of Motor Behavior · 2025</small></p>
+        <p class="pub"><strong>Sensorimotor challenges in minimally invasive surgery: A theoretically-oriented review.</strong><small>Hewitson, Crossley, Cartmill & Kaplan · Human Factors · 2024</small></p>
+        <p class="pub"><strong>Watch and learn: The cognitive neuroscience of learning from others' actions.</strong><small>Ramsey, Kaplan & Cross · Trends in Neurosciences · 2021</small></p>
+        <a class="button secondary" href="https://scholar.google.com.au/citations?user=r1qDidUAAAAJ&hl=en">Complete list on Google Scholar</a>
+      </section>
+      <section id="cv">
+        <h2>Curriculum vitae</h2>
+        <h3>Current appointment</h3><p>Associate Professor and Head of Neuroscience Education, School of Psychological Sciences, Macquarie University.</p>
+        <h3>Education</h3><p>PhD, Philosophy and Cognitive Neuroscience, Duke University, 2007<br>BA, Philosophy, University of California San Diego, 1997</p>
+        <h3>Areas of specialisation</h3><p>Motor neuroscience · Systems neuroscience · Philosophy of neuroscience · Philosophy of cognitive science</p>
+        <a class="button" href="/files/davidkaplanCV-Jul2026.pdf">Download complete CV</a>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
