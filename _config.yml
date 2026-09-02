@@ -171,6 +171,7 @@ exclude:
   - _talks
   - _teaching
   - _portfolio
+  - _pages/about.md
   - _pages/markdown.md
   - _pages/page-archive.html
   - _pages/talkmap.html
